@@ -1,0 +1,159 @@
+/*header: ver de cerca + barra de navegación*/
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: solid;
+    text-shadow: 2px 2px 5px #838b8b;
+    margin: 15px;
+}
+
+span{
+    color: #248232;
+}
+
+.barranavegacion {
+    background-color: #248232;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 0 100px;
+}
+
+ul li {
+    list-style-type: none;
+    color: #FCFFFC;
+    font-size: 18px;
+    font-family: Helvetica;
+    display: inline-block;
+    padding: 0 0 0 80px;
+}
+
+ul {
+    margin: 0 100px;
+}
+
+#navegacion {
+    text-decoration: none;
+    color: #FCFFFC;
+    font-size: 20px;
+}
+
+#contacto {
+    float:right;
+    padding: 0 40px;
+}
+
+/*main: cajas ambiente + huerta + suscripción*/
+body {
+    margin left: 5px;
+    margin top: 0px;
+    margin right: 5px;
+    margin bottom: 0px;
+}
+p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h4 {
+    font-size: 26px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.contenedora{
+    margin: 0 5px auto;
+    align-content: center;
+    }
+
+
+.titular { 
+    font-size: 26px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+#planeta {
+    margin: -50px;
+}
+
+/*prop gral de cajas*/
+.biodiversidad {
+    width: 1200px;
+    height: 200px;
+    padding: 60px;
+    background-color: #baf2bb;
+}
+.cambioclimatico {
+    width: 1200px;
+    height: 200px;
+    padding: 60px;
+    background-color: #f2e2ba;
+}
+.desarrollosostenible {
+    width: 1200px;
+    height: 200px;
+    padding: 60px;
+    background-color: #baf2d8;
+}
+.economiacircular {
+    width: 1200px;
+    height: 200px;
+    padding: 60px;
+    background-color: #f2bac9;
+}
+.eficienciaenergetica {
+    width: 1200px;
+    height: 200px;
+    padding: 60px;
+    background-color: #bad7f2;
+}
+.huellaecologica {
+    width: 1200px;
+    height: 200px;
+    padding: 60px;
+    background-color: #baf2bb;
+}
+.rrr{
+    width: 1200px;
+    height: 200px;
+    padding: 60px;
+    background-color: #f2e2ba;
+}
+
+.fuente{
+    text-decoration: none;
+    color: #040F0F;
+    text-align: right;
+}
+/*
+.huerta {
+    float: left;
+}
+
+.suscripcion {
+    background-color: #248232;
+    display: inline-block;
+}
+*/
+
+/*Footer*/
+
+#verdecerca {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+h5 {
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+
+
+
+
+/* paleta:
+negro #040F0F   ver osc #248232     ver clar #2BA84A    gris osc #2D3A3A    blanco #FCFFFC */
