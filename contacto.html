@@ -2,32 +2,58 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto - Ver de Cerca</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ver de Cerca</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+    </style>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap');
+    </style>
 </head>
 
 <body>
- <header>
-    <h1><span>Ver de</span> Cerca</h1>
-        <div class="barranavegacion">
-            <ul>
-                <li><a id="navegacion" href="index.html">Inicio</a></li>
-                <li><a id="navegacion" href="notas.html">Notas</a></li>
-                <li><a id="navegacion" href="">Quiénes somos</a></li>
-                <li id="contacto"><a id="navegacion" href="contacto.html">Contacto</a></li>
-            </ul>
+    <header>
+        <div class="verdecerca">
+            <h1><span>Ver de</span> Cerca</h1>
         </div>
- </header>
- 
+        <div class="contain">
+            <div class="row">
+                <div class="col" id="barranavegacion">
+                    <ul>
+                        <li><a id="navegacion" href="index.html">Inicio</a></li>
+                        <li><a id="navegacion" href="notas.html">Notas</a></li>
+                        <li><a id="navegacion" href="">Quiénes somos</a></li>
+                        <li id="contacto"><a id="navegacion" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       
+    </header>  
+ <!--
  <main>
-    <h3>Visitá nuestras oficinas:</h3>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.5435321396776!2d-64.33441768495993!3d-32.75130946935629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x48a0684b0d0b11c9!2zMzLCsDQ1JzA0LjciUyA2NMKwMTknNTYuMCJX!5e0!3m2!1ses!2sar!4v1662172395093!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <h2>Comunicate a nuestro email:</h2> <a href="mailto:roariasdanterre@gmail.com?Subject=Suscripción&body=Hola! Soy ... y quiero suscribirme">verdecerca@gmail.com</a>
- </main>
+    <br>
+    <div class="oficinas">
+        <h3>Visitá nuestras oficinas:</h3>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.5435321396776!2d-64.33441768495993!3d-32.75130946935629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x48a0684b0d0b11c9!2zMzLCsDQ1JzA0LjciUyA2NMKwMTknNTYuMCJX!5e0!3m2!1ses!2sar!4v1662172395093!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="suscripcion">
+        <h3>¡Suscribite y recibí toda la info a tu email!</h3>
+        <form>
+            <label for="nombre">Nombre</label> <input id="nombre" type="text"> <br>
+            <label for="mail">Mail</label><input id="mail" type="text"> <br>
+            <label for="comentario"></label>Mensaje<input id="comentario" type="text"> <br>
+            <label for="enviar"><input id="enviar" type="submit"></label>
+        </form>
+    </div>
+    
+ </main> -->
 
- <footer>
+ <footer id="footercontacto">
     <hr>
     <div class="pie">
         <h3 id="verdecerca">Ver de Cerca</h3>

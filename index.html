@@ -2,28 +2,132 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ver de Cerca</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
 </head>
 
 <body>
-    <header>
-        <h1><span>Ver de</span> Cerca</h1>
-        <div class="barranavegacion">
-            <ul>
-                <li><a id="navegacion" href="">Inicio</a></li>
-                <li><a id="navegacion" href="notas.html">Notas</a></li>
-                <li><a id="navegacion" href="">Quiénes somos</a></li>
-                <li id="contacto"><a id="navegacion" href="contacto.html">Contacto</a></li>
-            </ul>
-        </div>
+    <header> 
+            <section class="nav">
+                <div class="verdecerca">
+                        <a class="nombreinicio" href="index.html"><h1>Ver de Cerca</h1></a>
+                </div>
+                <div class="barranavegacion">
+                    <ul>
+                        <li><a id="navegacion" href="index.html">Inicio</a></li>
+                        <li><a id="navegacion" href="notas.html">Notas</a></li>
+                        <li><a id="navegacion" href="#">Quiénes somos</a></li>
+                        <li><a id="navegacion" href="#">Contacto</a></li>
+                    </ul>
+                </div>
+            </section>    
     </header>   
 
     <main>
-        <div class="contenedora">
+        <section class="contenido">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col">
+                    <h2 id="titular">¿Qué necesito saber sobre el ambiente?
+                        <div class="col-4"></div>
+                        <img id="planeta" src="imgs/no/tierra.png" alt="Planeta Tierra" width="150px" height="150px">
+                        <div class="col-4"></div>
+                    </h2>
+                </div>
+                <div class="col-1"></div>
+            </div>
+    
+            <div class="cajas">
+                
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-5" id="biodiversidad">
+                        <h4>Biodiversidad</h4>
+                    <p>Es la variedad biológica de una determinada zona del planeta. Gran parte de los alimentos, medicamentos y productos que 
+                        consumimos existen gracias a la gran variedad de seres vivos que habitan el planeta. Es por esto que la pérdida de 
+                        biodiversidad daña la economía mucho más de lo que se piensa. Cuidarla debería ser prioridad.</p>
+                    </div>
+                    <div class="col-5" id="cambioclimatico">
+                        <h4>Cambio Climático</h4>
+                        <p>Si bien es inevitable, los científicos advierten que todavía estamos a tiempo de que las consecuencias sean lo menores 
+                            posibles. Para ello hay que atender algunos aspectos: reducir las emisiones de gases de efecto invernadero (GEI), en gran 
+                            parte producto del uso de combustibles fósiles (como el petróleo, el gas y el carbón).</p>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-5" id="desarrollosostenible">
+                        <h4>Desarrollo Sostenible</h4>
+                        <p>No debemos malgastar los recursos naturales limitados, de manera que las próximas generaciones puedan también hacer uso 
+                            de ellas. Para lograrlo, la sociedad y los consumidores deben asumir algunos cambios fundamentales como la distribución 
+                            igualitaria y el consumo responsable de los recursos naturales.</p>
+                    </div>
+                    <div class="col-5" id="economiacircular">
+                        <h4>Economía Circular</h4>
+                    <p>Todo se aprovecha en un ciclo. La basura y los residuos pueden aprovecharse. Esta idea pretende superar el actual sistema 
+                        de producción que consiste en el "usar y tirar". Así, la basura, la contaminación y el agotamiento de los recursos naturales 
+                        se reduce y el ambiente lo agradece.</p>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-5" id="eficienciaenergetica">
+                        <h4>Eficiencia Energética</h4>
+                        <p>Esto nos permite consumir menos energía para producir lo mismo que hace unas décadas, contaminar menos y ahorrar más dinero. 
+                            Gracias a la utilización eficiente de la energía, se requiere menor cantidad de recursos y de dinero, se mantiene o incluso 
+                            se mejora la calidad de vida, se prolonga la vida de los recursos utilizados y se disminuyen los conflictos sociales.</p>
+                    </div>
+                    <div class="col-5" id="huellaecologica">
+                        <h4>Huella Ecológica</h4>
+                        <br>
+                    <p>Mide la superficie necesaria (biocapacidad) para producir los recursos consumidos por un ciudadano y para absorber los 
+                        residuos que genera. Con este concepto se pretende dejar en evidencia la sobreexplotación de los recursos naturales de la 
+                        Tierra y el peligro que eso supone.</p>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-5" id="rrr">
+                        <h4>RRR</h4>
+                    <p>Las tres R se refieren a los conceptos de <strong>Reducir, Reutilizar y Reciclar</strong>. Es importante reducir el uso de 
+                        los recursos, reutilizar los productos para darles una vida útil más larga y, una vez que el producto no se pueda emplear 
+                        más, reciclarlo de forma adecuada.</p>
+                    </div>
+                    <div class="col-5" id="fuente">
+                        <br>
+                        <p>Si tenemos en cuenta todas estas cuestiones y las llevamos a la práctica en nuestro día a día, podremos aportar nuestro 
+                            granito de arena a favor de un planeta -y un ambiente- mejor y más saludable.</p>
+                        <p id="fuente">Fuente: <a class="fuente" href="https://www.consumer.es/medio-ambiente/siete-ideas-basicas-sobre-medio-ambiente-que-deberias-conocer.html">Consumer.es</a></p>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+        </section>
+        
+            <div class="row">
+                <div class="col-1"></div>
+                <div id="plantar" class="col">
+                    <a id="plantar" href="https://infoagro.com.ar/que-sembrar-en-el-mes-de-octubre/"><img src="imgs/HUERTITA.jpg" alt="Siembra en Octubre" width="500px"></a>
+            </div>
+                <div class="col-1"></div>
+            </div>
+    
+        </div>
+    </main>
+
+
+
+    
+     <!--   <div class="contenedora">
             <div class="titular">
                 <h2>¿Qué necesito saber sobre el ambiente?</h2>
-                <img id="planeta" src="img/tierra.png" alt="Planeta Tierra" width="150px" height="150px">
+                
             </div>
             <br>
             <div class="biodiversidad">
@@ -68,8 +172,10 @@
                     los recursos, reutilizar los productos para darles una vida útil más larga y, una vez que el producto no se pueda emplear 
                     más, reciclarlo de forma adecuada.</p>
             </div>
-            <p>Fuente: <a class="fuente" href="https://www.consumer.es/medio-ambiente/siete-ideas-basicas-sobre-medio-ambiente-que-deberias-conocer.html">Consumer.es</a></p>
+            
         </div>
+        <p id="fuente">Fuente: <a class="fuente" href="https://www.consumer.es/medio-ambiente/siete-ideas-basicas-sobre-medio-ambiente-que-deberias-conocer.html">Consumer.es</a></p>
+        -->
 <!--        <div class="huerta">
             <h2>¿Qué plantar este mes?</h2>
             <img src="img/huerta.webp" alt="¿Qué plantar en septiembre?" title="Huerta en septiembre" width="550px">
@@ -78,7 +184,6 @@
             <h2>Si querés recibir a tu mail toda la información semanalmente... </h2>
             <h3><a id="suscripcion" href="mailto:roariasdanterre@gmail.com?Subject=Suscripción&body=Hola! Soy ... y quiero suscribirme">¡Suscribite!</a></h3>
         </div> -->
-    </main>
 
     <footer>
         <hr>

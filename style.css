@@ -1,35 +1,186 @@
-/*header: ver de cerca + barra de navegación*/
-h1 {
-    font-size: 50px;
+/* general */
+body {
+    min-height: 100vh;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*header*/
+
+header {
+    position: sticky;
+    top: 0px;
+}
+.nav {
+    background-color: #248232;
+    border-radius: 15px;
+    width: auto;
+    height: 80px;
+}
+
+.verdecerca {
+    margin-top: 15px;
+    margin-left: 90px;
+    margin-right: 40%;
+}
+
+.nombreinicio {
+    text-decoration: none;
+    color: white;
+    font-style: italic;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nombreinicio:hover {
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+ ul li, #navegacion{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    display: inline-flex;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 13px;
+    text-align: center;
+}
+
+#navegacion:hover {
+    color: white;
+    border-radius: 10px;
+    width: auto;
+    height: 25px;
+    background-color: #2BA84A;
+}
+
+/*main*/
+
+.contenido {
+    margin-top: 15px;
+    background-color: ;
+}
+
+    #titular {
+        border: 2px solid #bad7f2;
+        text-align: center;
+        padding: 10px;
+    }
+    #planeta {
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        margin-bottom: -15px;
+        margin-top: -15px;
+    }
+
+    /*cajas*/
+        /*prop general*/
+        #biodiversidad {
+            background-color: #ffb6af;
+            padding: 15px;
+            margin: 1px;
+            text-align: center;
+        }
+
+        #cambioclimatico {
+            background-color: #b0f2c2;
+            padding: 15px;
+            margin: 1px;
+            text-align: center;
+        }
+
+        #desarrollosostenible {
+            background-color: #fcfcda;
+            padding: 15px;
+            margin: 1px;
+            text-align: center;
+        }
+
+        #economiacircular {
+            background-color: #bad7f2 ;
+            padding: 15px;
+            margin: 1px;
+            text-align: center;
+        }
+
+        #eficienciaenergetica {
+            background-color: #b0f2c2 ;
+            padding: 15px;
+            margin: 1px;
+            text-align: center;
+        }
+
+        #huellaecologica {
+            background-color: #ffb6af;
+            padding: 15px;
+            margin: 1px;
+            text-align: center;
+        }
+
+        #rrr {
+            background-color: #bad7f2;
+            padding: 15px;
+            margin: 1px;
+            text-align: center;
+        }
+
+        #fuente {
+            background-color:  #fcfcda;
+            padding: 15px;
+            margin: 1px;
+            text-align: center;
+        }
+
+
+/* paleta colores
+salmon #ffb6af
+amarillo claro #fcfcda
+verde rari #ededaf
+verde agua #c7f6d4
+verde normal #b0f2c2
+celeste #bad7f2
+
+
+/*
+
+/*header: ver de cerca + barra de navegación
+
+
+html {
+    margin: 15px 25px 0 25px;
+}
+.verdecerca h1  {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Mitr', sans-serif;
     text-decoration: solid;
-    text-shadow: 2px 2px 5px #838b8b;
-    margin: 15px;
+    text-shadow: 2px 2px 3px #616868;
+    margin: 15px 0px;
 }
 
 span{
     color: #248232;
 }
 
-.barranavegacion {
+#barranavegacion ul{
     background-color: #248232;
     border-radius: 5px;
-    padding: 3px;
-    margin: 0 100px;
+    padding: 0px 0px 0px 0px;
+    margin: auto 50px 0px;
 }
 
 ul li {
     list-style-type: none;
     color: #FCFFFC;
-    font-size: 18px;
-    font-family: Helvetica;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
     display: inline-block;
-    padding: 0 0 0 80px;
-}
-
-ul {
-    margin: 0 100px;
+    padding: 0 0 0 170px;
+    align-items: center;
+    text-align: center;
 }
 
 #navegacion {
@@ -43,23 +194,24 @@ ul {
     padding: 0 40px;
 }
 
-/*main: cajas ambiente + huerta + suscripción*/
-body {
-    margin left: 5px;
-    margin top: 0px;
-    margin right: 5px;
-    margin bottom: 0px;
+/*main: cajas ambiente + huerta + suscripción
+
+h2 {
+    font-family: 'Montserrat';
+    text-align: center;
+    padding: 10px;
 }
-p {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+h4 {
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: solid;
     text-align: center;
 }
 
-h4 {
-    font-size: 26px;
-    font-family: 'Arial Narrow Bold', sans-serif;
-    text-align: center;
+p {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
 }
 
 .contenedora{
@@ -72,63 +224,149 @@ h4 {
     font-size: 26px;
     font-family: 'Arial Narrow Bold', sans-serif;
     text-align: center;
+
 }
 
-#planeta {
-    margin: -50px;
+/*#planeta {
+    margin: auto;
+    justify-content:center ;    
 }
 
-/*prop gral de cajas*/
-.biodiversidad {
-    width: 1200px;
-    height: 200px;
-    padding: 60px;
+#fuente {
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px;
+}
+
+/*prop gral de cajas
+#titular{
+    padding: 15px 45px;
+    border: 5px solid;
+    border-color: #bad7f2;
+    margin: 1px -14px 0px -11px;
+}
+#biodiversidad {
+    padding: 15px 45px;
     background-color: #baf2bb;
+    margin: 1px;
 }
-.cambioclimatico {
-    width: 1200px;
-    height: 200px;
-    padding: 60px;
+#cambioclimatico {
+    padding: 15px 45px;
     background-color: #f2e2ba;
+    margin: 1px;
 }
-.desarrollosostenible {
-    width: 1200px;
-    height: 200px;
-    padding: 60px;
+#desarrollosostenible {
+    padding: 15px 45px;
     background-color: #baf2d8;
+    margin: 1px;
 }
-.economiacircular {
-    width: 1200px;
-    height: 200px;
-    padding: 60px;
+#economiacircular {
+    padding: 15px 45px;
     background-color: #f2bac9;
+    margin: 1px;
 }
-.eficienciaenergetica {
-    width: 1200px;
-    height: 200px;
-    padding: 60px;
+#eficienciaenergetica {
+    padding: 15px 45px;
     background-color: #bad7f2;
+    margin: 1px;
 }
-.huellaecologica {
-    width: 1200px;
-    height: 200px;
-    padding: 60px;
+#huellaecologica {
+    padding: 15px 45px;
     background-color: #baf2bb;
+    margin: 1px;
 }
-.rrr{
-    width: 1200px;
-    height: 200px;
-    padding: 60px;
+#rrr{
+    padding: 15px 45px;
     background-color: #f2e2ba;
+    margin: 1px;
+}
+#fuente {
+    padding: 15px 45px;
+    background-color: #baf2d8;
+    margin: 1px;
 }
 
 .fuente{
-    text-decoration: none;
+    text-decoration: underline;
     color: #040F0F;
     text-align: right;
 }
-/*
-.huerta {
+
+#plantar {
+    text-align: center;
+    background-color:#baf2bb;
+}
+
+/* notas 
+#notas> {
+    text-align: center;
+    align-content: center;
+    margin: 1px;
+    padding: 0 15px;
+    }
+
+#notas h5 {
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;   
+}
+
+#notas p {
+    margin: -5px 10px;
+    font-size: 16px;
+    padding: 3px 0 0 0;
+}
+
+#notas img {
+    margin: 5px;
+    width: fit-content;
+    text-align: center;
+}
+
+#titulares {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#titulares:hover {
+    text-decoration: solid;
+    color:darkgreen;
+}
+
+/*notas 1,2 y 3 en gral
+#nota1 #tabla {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#nota1 th {
+    text-align: center;
+}
+
+#nota1 th td tr {
+    padding:5px;
+}
+
+figure {
+    text-align: center;
+}
+
+#linkNota {
+    color: #248232;
+}
+
+/*nota 2 particular
+#genero {
+    font-style: italic;
+    text-align: right;
+    font-size: 18px;
+}
+
+
+/* .huerta {
     float: left;
 }
 
@@ -138,22 +376,56 @@ h4 {
 }
 */
 
-/*Footer*/
+/*Footer
 
 #verdecerca {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-style: italic;
 }
 
 h5 {
-    font-family: Tahoma;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
 
 
+/*SECCION CONTACTO
 
+.oficinas {
+    float: left;
+    margin: 0 20px;
+    background-color: #baf2bb;
+    padding: 10px;
+}
+
+.suscripcion {
+    float: left;
+    margin: -2px 20px;
+    background-color: #f2bac9;
+    padding: 30px;
+}
+
+h3 {
+    font-size: 22px;
+    font-family: Helvetica;
+}
+
+form {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label {
+    padding: 0 10px;
+}
+
+
+#footercontacto {
+    margin: 570px 0 0 0px;
+}
 
 
 /* paleta:
-negro #040F0F   ver osc #248232     ver clar #2BA84A    gris osc #2D3A3A    blanco #FCFFFC */
+negro #040F0F   ver osc #248232     ver clar #2BA84A    gris osc #2D3A3A    blanco #FCFFFC 
+
+*/
