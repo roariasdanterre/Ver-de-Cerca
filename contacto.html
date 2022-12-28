@@ -1,64 +1,67 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ver de Cerca</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
-    </style>
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap');
-    </style>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contacto | Ver de Cerca</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+      </head>
 
 <body>
-    <header>
-        <div class="verdecerca">
-            <h1><span>Ver de</span> Cerca</h1>
-        </div>
-        <div class="contain">
-            <div class="row">
-                <div class="col" id="barranavegacion">
-                    <ul>
-                        <li><a id="navegacion" href="index.html">Inicio</a></li>
-                        <li><a id="navegacion" href="notas.html">Notas</a></li>
-                        <li><a id="navegacion" href="">Quiénes somos</a></li>
-                        <li id="contacto"><a id="navegacion" href="contacto.html">Contacto</a></li>
-                    </ul>
-                </div>
+    <div class="barra">
+        <nav>
+            <a href="index.html" class="logo">Ver de Cerca</a>
+            <div class="barra">
+                <ul>
+                    <li class="item"><a href="notas.html" class="item">Notas</a></li>
+                    <li class="item"><a href="quienesSomos.html" class="item">Quiénes Somos</a></li>
+                    <li class="item"><a href="contacto.html" class="item">Contacto</a></li>
+                </ul>
             </div>
-        </div>
-       
-    </header>  
- <!--
- <main>
-    <br>
-    <div class="oficinas">
-        <h3>Visitá nuestras oficinas:</h3>
-        <br>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.5435321396776!2d-64.33441768495993!3d-32.75130946935629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x48a0684b0d0b11c9!2zMzLCsDQ1JzA0LjciUyA2NMKwMTknNTYuMCJX!5e0!3m2!1ses!2sar!4v1662172395093!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </nav>
     </div>
-    <div class="suscripcion">
-        <h3>¡Suscribite y recibí toda la info a tu email!</h3>
-        <form>
-            <label for="nombre">Nombre</label> <input id="nombre" type="text"> <br>
-            <label for="mail">Mail</label><input id="mail" type="text"> <br>
-            <label for="comentario"></label>Mensaje<input id="comentario" type="text"> <br>
-            <label for="enviar"><input id="enviar" type="submit"></label>
-        </form>
-    </div>
-    
- </main> -->
 
- <footer id="footercontacto">
-    <hr>
-    <div class="pie">
-        <h3 id="verdecerca">Ver de Cerca</h3>
-        <h5>Una mirada ecológica</h5>
+    <main> 
+        <br>
+    <div class="row" id="contacto">
+        <div class="col-1"></div>
+       <div class="col" id="mapa">
+            <br>
+            <h4 class="text-center">Visitá nuestras oficinas</h4>
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d675.4957150571587!2d-64.18539098969062!3d-31.433819036716454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a33522e0daf9%3A0x9b2389c3d9f5d817!2sFacultad%20de%20Ciencias%20de%20la%20Comunicaci%C3%B3n%20(F.C.C.)%20%7C%20U.N.C.!5e0!3m2!1ses!2sar!4v1672063351879!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div> 
+        <div class="col" id="formulario">
+            <br>
+            <h4 class="text-center">Envianos tu mensaje</h4>
+            <br> <br>
+            <form class="text-center">
+                <label for="nombre">
+                <input type="text" id="nombre" placeholder="Nombre" class="text-center border rounded">
+                </label> <br> <br> <br>
+                <label for="mail">
+                    <input type="email" id="mail" placeholder="Email" class="text-center border rounded">
+                </label> <br> <br> <br>
+                <label for="mensaje" >
+                    <textarea id="mensaje" rows="5" cols="40" placeholder="Escribí tu mensaje..." class="border rounded"></textarea>
+                </label> <br> <br> <br>
+                <button type="button" class="text-center border rounded">Enviar</button>
+            </form>
+        </div>
+        <div class="col-1"></div>
     </div>
- </footer>
+  
+
+    </main>
+
+    <footer>
+        <hr>
+        <div class="pie">
+            <h5 class="fw-light fst-italic">Una mirada ecológica</h5>
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>

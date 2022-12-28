@@ -1,85 +1,67 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Notas | Ver de Cerca</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
-    </style>
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap');
-    </style>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Notas | Ver de Cerca</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+      </head>
 
 <body>
-    <header>
-        <div class="verdecerca">
-            <h1><span>Ver de</span> Cerca</h1>
-        </div>
-        <div class="contain">
-            <div class="row">
-                <div class="col" id="barranavegacion">
-                    <ul>
-                        <li><a id="navegacion" href="index.html">Inicio</a></li>
-                        <li><a id="navegacion" href="notas.html">Notas</a></li>
-                        <li><a id="navegacion" href="">Quiénes somos</a></li>
-                        <li id="contacto"><a id="navegacion" href="contacto.html">Contacto</a></li>
-                    </ul>
-                </div>
+    <div class="barra">
+        <nav>
+            <a href="index.html" class="logo">Ver de Cerca</a>
+            <div class="barra">
+                <ul>
+                    <li class="item"><a href="notas.html" class="item">Notas</a></li>
+                    <li class="item"><a href="quienesSomos.html" class="item">Quiénes Somos</a></li>
+                    <li class="item"><a href="contacto.html" class="item">Contacto</a></li>
+                </ul>
             </div>
-        </div>
-    </header>   
-    
+        </nav>
+    </div>
+
     <main>
-        <br>
-        <div class="row">
+       <div class="row">
             <div class="col-1"></div>
-            <div class="col" id="notas"> 
-                <a href="nota1.html" id="titulares"><h5>Vivir entre plásticos: una amenaza que nos acecha</h5></a>
-                <img src="https://static.wixstatic.com/media/0a8be6_e0c53934bc8d47398ed8a531394c9f06~mv2.jpg/v1/fill/w_740,h_413,al_c,lg_1,q_80,enc_auto/0a8be6_e0c53934bc8d47398ed8a531394c9f06~mv2.jpg">
-                <p>Por Rocío Arias Danterre</p>
+            <div class="col col-md-5">
+                <div class="text-center">
+                    <h4><a href="nota1.html" class="titulosNotas">Húmeda esperanza</a></h4>
+                </div>
+                
+                <a href="nota1.html"><img class="img-fluid rounded" src="imgs/1.jpg" alt=""></a>
             </div>
-            <div class="col" id="notas">
-                <div class="row">
-                    <a href="nota2.html" id="titulares"><h5>Entre cenizas y construcciones</h5></a>
+
+            <div class="col col-md-5">
+                <div class="text-center">
+                    <h4><a href="nota2.html" class="titulosNotas">Privar para cuidar</a></h4>    
                 </div>
-                <div class="row">
-                    <img src="https://static.wixstatic.com/media/0a8be6_5e94993684a44f3190800535a8976006~mv2.jpg/v1/fill/w_631,h_631,al_c,lg_1,q_85,enc_auto/0a8be6_5e94993684a44f3190800535a8976006~mv2.jpg" >
-                </div>
-                <div class="row">
-                    <p>Por Rocío Arias Danterre</p>
-                </div>    
+            
+                <a href="nota2.html"><img class="img-fluid rounded" src="imgs/2.jpg" alt=""></a>
             </div>
             <div class="col-1"></div>
         </div>
+
         <div class="row">
             <div class="col-1"></div>
-            <div class="col" id="notas">
-                <div class="row">
-                    <a href="nota3.html" id="titulares"><h5>Húmeda esperanza</h5></a>
+            <div class="col col-md-5">
+                <a href="nota3.html"><img class="img-fluid rounded" src="imgs/3.jpg" alt=""></a>
+
+                <div class="text-center">
+                    <h4><a href="nota3.html" class="titulosNotas">Sembrar un mundo mejor</a></h4>
                 </div>
-                <div class="row">
-                    <img src="imgs/pexels-sippakorn-yamkasikorn-3552472.jpg">
-                </div>
-                <div class="row">
-                    <p>Por Rocío Arias Danterre</p>
-                </div>    
+                
             </div>
-            <!-- <div class="col" id="notas">
-                 <div class="row">
-                    <h5>Vivir entre plásticos: una amenaza que nos acecha</h5>
+
+            <div class="col col-md-5">
+                <a href="nota4.html"><img class="img-fluid rounded" src="imgs/4.jpg" alt=""></a>
+
+                <div class="text-center">
+                    <h4><a href="nota4.html" class="titulosNotas">Entre cenizas y construcciones</a></h4>
                 </div>
-                <div class="row">
-                    <img src="https://static.wixstatic.com/media/0a8be6_e0c53934bc8d47398ed8a531394c9f06~mv2.jpg/v1/fill/w_740,h_413,al_c,lg_1,q_80,enc_auto/0a8be6_e0c53934bc8d47398ed8a531394c9f06~mv2.jpg">
-                </div>
-                <div class="row">
-                    <p>Por Rocío Arias Danterre</p>
-                </div>
-            </div> -->
+                
+            </div>
             <div class="col-1"></div>
         </div>
     </main>
@@ -87,10 +69,9 @@
     <footer>
         <hr>
         <div class="pie">
-            <h3 id="verdecerca">Ver de Cerca</h3>
-            <h5>Una mirada ecológica</h5>
+            <h5 class="fw-light fst-italic">Una mirada ecológica</h5>
         </div>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
